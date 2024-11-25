@@ -1,0 +1,73 @@
+body {
+    background-color: #F5F4F0; 
+}
+
+
+#busandiv{
+    width: 1120px;
+    margin: auto;
+    border-radius: 28px;
+}
+
+#busanp{
+    text-align: center;
+}
+
+
+#des-busan {
+    width: 1120px;
+    margin: auto;
+    border-radius: 28px;
+
+}
+#pdes{
+    font-size: 16px;
+    padding-bottom: 64px;
+    margin-top: -10px;
+}
+
+h3{
+   color: #E1624F;
+   margin-bottom: -20px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
+  }
+  
+
+ul{
+    list-style-type: disc;
+     margin-left: -40px;
+}
+
+li {
+    margin-left: 23px;
+}
+
+#his {
+    color: #0C51A7;
+    font-weight: bold; 
+}
+
+#casais {
+    color: #591B98;
+    font-weight: bold; 
+}
+
+#familia {
+    color: #E5245E;
+    font-weight: bold; 
+}
+
+#orcamento {
+    color: #E95E10;
+    font-weight: bold; 
+}
+
+ul li::marker {
+    color: #333333;
+  }
