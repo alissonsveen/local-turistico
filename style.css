@@ -1,31 +1,28 @@
-:root{
-    font-family: "Open Sans", sans-serif;
-    
-    
+:root /* aplica a fonte em todos os textos da pagina */ {
+    font-family: "Open Sans", sans-serif; 
 }
 
 body {
     background-color: #F5F4F0; 
 }
  
-#busandiv{
+#busandiv /* DIV da primeira img */{
     width: 1120px;
     margin: auto;
     border-radius: 28px;
 }
 
-#busanp{
+#busanp/* texto em baixo da primeira img*/{
     text-align: center;
 }
 
-
-#des-busan {
+#des-busan/* DIV da segunda img */ {
     width: 1120px;
     margin: auto;
     border-radius: 28px;
 
 }
-#pdes{
+#pdes /* Primeiro Parágrafo do texto*/{
     font-size: 16px;
     padding-bottom: 64px;
     margin-top: -10px;
@@ -35,31 +32,38 @@ h2 {
    padding-bottom: 4px;
 }
 
-#pthy {
-    margin-top: -10px;
+#pthy /* Segundo Parágrafo do texto*/{
+    margin-top: -19px;
     margin-left: -9px ;
 }
 
-#his {
+#his/* Se refere ao Parágrafo historia*/ {
+    font-size: 16px;
     color: #0C51A7;
     font-weight: bold;
     padding-bottom: 40px;
-    margin-left: 10px;
+    margin-left: 5px;
+}
+
+#ptn /* Se refere ao Pontinho do lado de historia*/ {
+    text-align: left;
+    margin-bottom: -49px;
+    margin-left: -17px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -19px;
+}
+
+#bp /* Se refere ao Parágrafo Bom para: */ {
+    font-weight: bold;
+    margin-left: -10px;
 }
 
 h3{
    color: #E1624F;
    margin-bottom: -20px;
 }
-
-.divider {
-    width: 100%;
-    height: 1px;
-    margin: 36px 0;
-    background-color: #d9d9d9;
-  }
   
-
 ul{
     list-style-position: inside;
     font-weight: bold;
@@ -67,17 +71,21 @@ ul{
 }
 
 li {
-    margin-left: 23px;
+    margin-left: 3px;
 }
 
 #casais {
     color: #591B98;
-    font-weight: bold; 
+    font-weight: bold;
+    margin-top: -15px;
+    
 }
 
 #familia {
     color: #E5245E;
-    font-weight: bold; 
+    font-weight: bold;
+    
+     
 }
 
 #orcamento {
@@ -85,8 +93,15 @@ li {
     font-weight: bold; 
 }
 
-ul li::marker {
+ul li::marker /* faz com que o ponto das li fique com essa cor */  {
     color: #333333;
+  }
+
+.divider /* divisor do texto*/{
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
   }
 
 footer {
